@@ -1,0 +1,21 @@
+div{
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div >p{
+    background: yellow;
+    margin: 0;
+    padding: 15px;
+}
+div#second>p{
+    background: purple;
+    margin: 0;
+    padding: 15px;
+}
+div p:nth-child(3){
+    background: white;
+}
+p{
+    background: blue;
+}
